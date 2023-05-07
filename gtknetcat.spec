@@ -2,7 +2,7 @@ Summary:	GUI frontend for the old NIX command nc (netcat)
 Summary(pl.UTF-8):	Graficzny interfejs do starego uniksowego polecenia nc (netcat)
 Name:		gtknetcat
 Version:	0.1
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		X11/Applications/Networking
 Source0:	https://downloads.sourceforge.net/lxde/%{name}-%{version}.tar.gz
@@ -12,7 +12,6 @@ BuildRequires:	gettext-tools
 BuildRequires:	intltool >= 0.21
 BuildRequires:	python >= 2.2
 BuildRequires:	sed >= 4.0
-Requires:	python-pygtk >= 2:2.0
 Requires:	python-pygtk-glade >= 2:2.0
 Requires:	python-pygtk-gtk >= 2:2.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
